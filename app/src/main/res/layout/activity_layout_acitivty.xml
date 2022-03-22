@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/banner"
+    android:padding="20dp"
+    tools:context=".layouts.LayoutAcitivty">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Button"
+        android:textColor="#FFAB40"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#000000"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is TextView"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="#EEFF41"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Button"-->
+<!--            tools:layout_editor_absoluteX="180dp"-->
+<!--            tools:layout_editor_absoluteY="216dp" />-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000fff"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/digital"
+        android:layout_weight="0.5"/>
+
+
+</LinearLayout>

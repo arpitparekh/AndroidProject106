@@ -4,8 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_phyco.xml" value="0.2245" />
+        <entry key="app/src/main/res/layout/activity_amount.xml" value="0.536" />
+        <entry key="app/src/main/res/layout/activity_animation.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_another_holder.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_ctsactivity.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/activity_edittext.xml" value="0.264" />
         <entry key="app/src/main/res/layout/activity_first.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_goa.xml" value="0.2671875" />
         <entry key="app/src/main/res/layout/activity_holder.xml" value="0.2609375" />
@@ -15,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_mumbai.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_my.xml" value="0.2609375" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.29010416666666666" />
+        <entry key="app/src/main/res/layout/activity_radio.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_second2.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_seek_bar.xml" value="0.264" />
@@ -39,5 +43,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2609375" />
+      </ProjectState>
+    </option>
   </component>
 </project>

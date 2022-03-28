@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CompoundButton;
@@ -51,7 +52,9 @@ public class AmountActivity extends AppCompatActivity implements CompoundButton.
             if(compoundButton==binding.cb1){
 
                 number =  Integer.parseInt(binding.cb1.getText().toString());
-                d = compoundButton.getButtonDrawable();
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                    d = compoundButton.getButtonDrawable();
+                }
                 compoundButton.setButtonDrawable(R.drawable.ic_phyco);
 
             }else if(compoundButton==binding.cb2){

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JigneshAndroidModule">
         <activity
-            android:name=".animation.AnimationActivity"
+            android:name=".menu.MyMenuActivity"
             android:exported="true" >
 
             <intent-filter>
@@ -21,16 +21,19 @@
 
         </activity>
         <activity
-            android:name=".widgets.EdittextActivity"
+            android:name=".animation.AnimationActivity"
             android:exported="true">
 
         </activity>
+        <activity
+            android:name=".widgets.EdittextActivity"
+            android:exported="true" />
         <activity
             android:name=".widgets.RadioActivity"
             android:exported="true" />
         <activity
             android:name=".widgets.AmountActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".widgets.SeekBarActivity"
             android:exported="true" />

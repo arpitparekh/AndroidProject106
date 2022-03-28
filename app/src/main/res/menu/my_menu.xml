@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="item 1"
+        android:id="@+id/actionItem1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_phyco"/>
+
+    <item
+        android:title="item 2"
+        android:id="@+id/actionItem2" />
+    <item
+        android:title="item 3"
+        android:id="@+id/actionItem3" />
+    <item
+        android:title="item 4"
+        android:id="@+id/actionItem4" >
+
+        <menu>
+
+            <item
+                android:title="item 5"
+                android:id="@+id/actionItem5" />
+
+            <item
+                android:title="item 6"
+                android:id="@+id/actionItem6" />
+
+            <item
+                android:title="item 7"
+                android:id="@+id/actionItem7" />
+
+        </menu>
+
+
+    </item>
+</menu>

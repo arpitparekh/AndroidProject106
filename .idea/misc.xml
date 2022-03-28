@@ -15,8 +15,10 @@
         <entry key="app/src/main/res/layout/activity_layout_acitivty.xml" value="0.176" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_menu.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_mumbai.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_my.xml" value="0.2609375" />
+        <entry key="app/src/main/res/layout/activity_my_menu.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/activity_one.xml" value="0.29010416666666666" />
         <entry key="app/src/main/res/layout/activity_radio.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_second.xml" value="0.29010416666666666" />
@@ -35,6 +37,8 @@
         <entry key="app/src/main/res/layout/layout_linear.xml" value="0.264" />
         <entry key="app/src/main/res/layout/layout_relative.xml" value="0.264" />
         <entry key="app/src/main/res/layout/layout_table.xml" value="0.29010416666666666" />
+        <entry key="app/src/main/res/menu/demo_menu.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/menu/my_menu.xml" value="0.26197916666666665" />
       </map>
     </option>
   </component>
